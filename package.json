@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-sample",
+  "version": "1.0.0",
+  "description": "My stylish Nuxt.js project",
+  "author": "Imanishi",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.9.5",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "bootstrap-vue": "^2.8.0",
+    "contentful": "^7.14.0",
+    "fs": "^0.0.1-security",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}
