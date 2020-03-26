@@ -70,7 +70,7 @@ export default {
       return client.getEntries({
         'content_type': process.env.CTF_CONTENT_TYPE
       }).then((entries) => {
-        return entries.items.map((entry) => 'blog/${entry.sys.id}')
+        return entries.items.map((entry) => `blog/${entry.sys.id}`)
       })
     } 
   }
